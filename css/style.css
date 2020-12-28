@@ -4367,7 +4367,7 @@ a.minimal-item:hover {
   white-space: nowrap;
   font-size: 5.55555556vmin;
   font-weight: bold;
-  letter-spacing: -.05em;
+  letter-spacing: .05em;
   line-height: 1.2;
 }
 
