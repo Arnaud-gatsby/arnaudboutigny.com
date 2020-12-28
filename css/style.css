@@ -55,7 +55,7 @@
 
 
 /* 1.1 General */
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
 html {
   font-size: 10px;
@@ -293,7 +293,7 @@ html > body .fs60 {
 }
 
 .font-abril {
-  font-family: 'Times New Roman', 'Times', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: normal;
 }
 
@@ -4218,7 +4218,6 @@ a.minimal-item:hover {
 .circular-container .circular-wrapper .circular-names li .name-wrapper-date {
   padding-top: 0;
   padding-bottom: 10px;
-  font-size: .9rem;
   white-space: nowrap;
   opacity: .7;
 }
@@ -4526,7 +4525,7 @@ a.minimal-item:hover {
 .video-text-item.is-active > .inside > .video-item-title + .video-item-title-sub {
   animation: videoText 2s ease-in-out forwards;
   animation-delay: .15s;
-  font-family: Georgia;
+  font-family: 'Playfair Display', serif;
 }
 
 .video-text-item.is-active > .inside > .video-item-descr {
@@ -5682,7 +5681,7 @@ a.minimal-item:hover {
 
 .project-list-flash .project-carousel-title {
   padding-right: 2rem;
-  font-family: 'Times New Roman', 'Times', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: normal;
   padding-top: 40rem;
 }
@@ -8034,7 +8033,7 @@ Slider
 }
 .cd-radial-slider-content h1 {
   font-size: 5rem;
-  font-family: 'Times New Roman', 'Times', serif;
+  font-family: 'Playfair Display', 'open sans', serif;
 }
 
 .cd-radial-slider-content p {
