@@ -25,7 +25,23 @@
 
 ***************************************************************/
 
-document.addEventListener("DOMContentLoaded", function() {
+(function ($) {
+	'use strict';
+
+	/*-------------------------------------------------------------------------------
+	  Animsition init
+	-------------------------------------------------------------------------------*/
+
+	$('.animsition').animsition({
+		loadingClass: 'preloader',
+		loadingInner: '<div class="spinner"><div class="double-bounce1"></div><div class="double-bounce2"></div></div>'
+	});
+	
+	/*-------------------------------------------------------------------------------
+	  Lazy loading
+	-------------------------------------------------------------------------------*/
+	
+	document.addEventListener("DOMContentLoaded", function() {
   var lazyloadImages;    
 
   if ("IntersectionObserver" in window) {
@@ -73,18 +89,6 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("orientationChange", lazyload);
   }
 })
-
-(function ($) {
-	'use strict';
-
-	/*-------------------------------------------------------------------------------
-	  Animsition init
-	-------------------------------------------------------------------------------*/
-
-	$('.animsition').animsition({
-		loadingClass: 'preloader',
-		loadingInner: '<div class="spinner"><div class="double-bounce1"></div><div class="double-bounce2"></div></div>'
-	});
 
 
 	/*-------------------------------------------------------------------------------
